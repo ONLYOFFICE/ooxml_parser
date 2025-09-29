@@ -25,5 +25,5 @@ Gem::Specification.new do |s|
   s.license = 'AGPL-3.0'
   s.add_dependency('nokogiri', '~> 1')
   s.add_dependency('ooxml_decrypt', '~> 1')
-  s.add_dependency('rubyzip', '~> 2')
+  s.add_dependency('rubyzip', '>= 2', '< 4')
 end
