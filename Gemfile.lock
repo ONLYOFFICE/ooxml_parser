@@ -4,7 +4,7 @@ PATH
     ooxml_parser (0.39.0)
       nokogiri (~> 1)
       ooxml_decrypt (~> 1)
-      rubyzip (~> 2)
+      rubyzip (>= 2, < 4)
 
 GEM
   remote: https://rubygems.org/
@@ -81,7 +81,7 @@ GEM
       rubocop (~> 1.72, >= 1.72.1)
     ruby-ole (1.2.13.1)
     ruby-progressbar (1.13.0)
-    rubyzip (2.4.1)
+    rubyzip (3.2.1)
     simplecov (0.22.0)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
