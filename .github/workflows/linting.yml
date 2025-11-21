@@ -6,7 +6,7 @@ jobs:
     name: Yamllint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Yamllint
         uses: karancode/yamllint-github-action@master
         with:
@@ -17,7 +17,7 @@ jobs:
     name: markdownlint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with:
           node-version: '16'
@@ -28,7 +28,7 @@ jobs:
   rubocop:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Set up latest stable ruby
         uses: ruby/setup-ruby@v1
         with:
